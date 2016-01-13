@@ -1,54 +1,200 @@
 .header {
 	width: 100%;
 	height: 80px;
-	background-color: red;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 1;
+	background-color: white;
+	border: 1px solid #CCC;
 }
 
 .player {
-	width: 640px;
+	width: 720px;
 	height: 480px;
-	background-color: green;
 	position: absolute;
 	top: 85;
-	left: 0;
+	left: 50;
+	background-color: white;
+	border: 1px solid #CCC;
 }
 
 .video-title {
-	width: 640px;
+	width: 705px;
 	height: 150px;
-	background-color: blue;
 	position: absolute;
 	top: 570;
-	left: 0;
+	left: 50;
+	background-color: white;
+	border: 1px solid #CCC;
+	padding-left: 15px;
 }
 
 .video-details {
-	width: 640px;
-	height: 150px;
-	background-color: yellow;
+	width: 705px;
+	height: 160px;
 	position: absolute;
 	top: 725;
-	left: 0;
+	left: 50;
+	background-color: white;
+	border: 1px solid #CCC;
+	padding-left: 15px;
 }
 
 .comments {
-	width: 640px;
+	width: 705px;
 	height: 800px;
-	background-color: orange;
 	position: absolute;
-	top: 880;
-	left: 0;
+	top: 890;
+	left: 50;
+	background-color: white;
+	border: 1px solid #CCC;
+	padding-left: 15px;
 }
 
 .side-bar {
-	width: 300px;
+	width: 500px;
 	height: 2000px;
-	background-color: #0FF;
 	position: absolute;
 	top: 85;
-	left: 645;
+	left: 775;
+	background-color: white;
+	border: 1px solid #CCC;
+	padding: 15px;
+}
+
+body {
+	background-color: #EEE;
+}
+
+.logo {
+	position: relative;
+	left: 30px;
+}
+
+.search {
+	position: absolute;
+	left: 300px;
+	top: 9px;
+}
+
+.upload-button {
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	font-size: 20px;
+	font-family: Arial;
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 13px;
+	right: 130px;
+	padding-top: 10px;
+}
+.sign-in {
+	background-color: blue;
+	border: 1px solid #CCC;
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 13px;
+	right: 30px;
+	padding-top: 10px;
+}
+
+.thumbnail-title {
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+	font-size: 12pt;
+}
+
+.thumnbail-author {
+	font-family: Arial;
+	color: #888;
+	font-size: 10pt;
+}
+
+.thumbnail-image {
+	float: left;
+	margin-right: 10px;
+}
+
+.show-more {
+	font-family: Arial;
+	color: #888;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.show-more:hover {
+	color: #555;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 24pt;
+	color: black;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 14pt;
+	color: #888;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 12pt;
+	color: black;
+	font-weight: bold;
+}
+
+.comment {
+	font-family: Arial;
+	font-size: 12pt;
+	color: black;
+}
+
+.add-comment {
+	border: 1px solid #CCC;
+	width: 685px;
+	height: 70px;
+	padding-left: 10px;
+	padding-top: 0;
+}
+
+.top-comments-button {
+	font-family: Arial;
+	font-size: 8pt;
+	color: black;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	height: 25px;
+	width: 100px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.comment-title {
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+	color: blue;
+}
+
+.comment-aside {
+	font-size: 10pt;
+	font-family: Arial;
+	color: #555;
+	font-weight: normal;
 }
