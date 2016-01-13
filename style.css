@@ -1,23 +1,35 @@
 .header {
-
+	width: 100%;
+	height: 80px;
+	background-color: red;
 }
 
 .player {
-
+	width: 640px;
+	height: 480px;
+	background-color: green;
 }
 
 .video-title {
-
+	width: 640px;
+	height: 150px;
+	background-color: blue;
 }
 
 .video-details {
-
+	width: 640px;
+	height: 150px;
+	background-color: yellow;
 }
 
 .comments {
-
+	width: 640px;
+	height: 800px;
+	background-color: orange;
 }
 
 .side-bar {
-	
+	width: 300px;
+	height: 2000px;
+	background-color: #0FF;
 }
